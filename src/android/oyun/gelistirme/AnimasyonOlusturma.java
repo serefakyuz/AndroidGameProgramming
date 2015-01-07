@@ -60,7 +60,7 @@ public class AnimasyonOlusturma extends BaseGameActivity
 		// TODO Auto-generated method stub
 		
 		// Sahan�n Texture nesnesi olu�turuluyor
-		texAnime = new Texture(1024, 8, TextureOptions.BILINEAR_PREMULTIPLYALPHA);		
+		texAnime = new Texture(256, 32, TextureOptions.BILINEAR_PREMULTIPLYALPHA);		
 		
 		// Sahan�n TextureRegion nesnesi olu�turuluyor
 		tiledTexReg = TextureRegionFactory.createTiledFromAsset(texAnime, this, "gfx/wave256.png", 0, 0, 4, 1);
